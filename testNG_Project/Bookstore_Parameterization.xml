@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="p_user1" value="aswathi"></parameter>
+  <parameter name="p_user2" value="ab"></parameter>
+  <parameter name="p_user3" value="abcd"></parameter>
+  <parameter name="p_pwd" value="As@123ABC"></parameter>
+  
+  <classes>
+      <class name="testNG_Package.Bookstore_Parameterization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

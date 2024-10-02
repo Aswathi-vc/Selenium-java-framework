@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="p_user" value="maya"></parameter>
+  <parameter name="p_pwd" value="maya"></parameter>
+  <classes>
+      <class name="testNG_Package.XML_Parameterization1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test1">
+  <parameter name="p_user" value="izin"></parameter>
+  <parameter name="p_pwd" value="izin"></parameter>
+  <classes>
+      <class name="testNG_Package.XML_Parameterization1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+  <parameter name="p_user" value="nivya"></parameter>
+  <parameter name="p_pwd" value="nivya"></parameter>
+  <classes>
+      <class name="testNG_Package.XML_Parameterization1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
